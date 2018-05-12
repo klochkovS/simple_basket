@@ -1,0 +1,46 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='UTF-8')
+  body
+    .title
+      .title__name Корзина покупателя
+      .title__sub-info Бюджет:  
+    .page
+      .dnd-area.dnd-area_transmitter
+        .title
+          .title__name Товары
+          .title__sub-info
+        .products-area
+          .product(id='item-1', draggable='true', data-price='99.9', data-count='5')
+            .product__image
+            .product__title Свобода
+            .product__price Price: 99.9$
+            .product__count Count: 5
+          .product(id='item-2', draggable='true', data-price='44.99', data-count='3')
+            .product__image
+            .product__title Аренда
+            .product__price Price: 44.99$
+            .product__count Count: 3
+          .product(id='item-3', draggable='true', data-price='14.99', data-count='10')
+            .product__image
+            .product__title Еда
+            .product__price Price: 14.99$
+            .product__count Count: 10
+          .product(id='item-4', draggable='true', data-price='4.99', data-count='48')
+            .product__image
+            .product__title Аниме
+            .product__price Price: 4.99$
+            .product__count Count: 48
+      .dnd-area.dnd-area_receiver
+        .title
+          .title__name Корзина
+          .title__sub-info 
+            | Сумма:
+            br 
+            | Товаров в корзине: 
+        .products-area.basket
+          .helper Переместите товар сюда
+
+          
+          

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"></head>
+  <body>
+    <div class="title">
+      <div class="title__name">Корзина покупателя</div>
+      <div class="title__sub-info">Бюджет:  </div>
+    </div>
+    <div class="page">
+      <div class="dnd-area dnd-area_transmitter">
+        <div class="title">
+          <div class="title__name">Товары</div>
+          <div class="title__sub-info"></div>
+        </div>
+        <div class="products-area">
+          <div class="product" id="item-1" draggable="true" data-price="99.9" data-count="5">
+            <div class="product__image"></div>
+            <div class="product__title">Свобода</div>
+            <div class="product__price">Price: 99.9$</div>
+            <div class="product__count">Count: 5</div>
+          </div>
+          <div class="product" id="item-2" draggable="true" data-price="44.99" data-count="3">
+            <div class="product__image"></div>
+            <div class="product__title">Аренда</div>
+            <div class="product__price">Price: 44.99$</div>
+            <div class="product__count">Count: 3</div>
+          </div>
+          <div class="product" id="item-3" draggable="true" data-price="14.99" data-count="10">
+            <div class="product__image"></div>
+            <div class="product__title">Еда</div>
+            <div class="product__price">Price: 14.99$</div>
+            <div class="product__count">Count: 10</div>
+          </div>
+          <div class="product" id="item-4" draggable="true" data-price="4.99" data-count="48">
+            <div class="product__image"></div>
+            <div class="product__title">Аниме</div>
+            <div class="product__price">Price: 4.99$</div>
+            <div class="product__count">Count: 48</div>
+          </div>
+        </div>
+      </div>
+      <div class="dnd-area dnd-area_receiver">
+        <div class="title">
+          <div class="title__name">Корзина</div>
+          <div class="title__sub-info">
+             Сумма:<br>Товаров в корзине: </div>
+        </div>
+        <div class="products-area basket">
+          <div class="helper">Переместите товар сюда</div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="bundle.js"></script></body>
+</html>

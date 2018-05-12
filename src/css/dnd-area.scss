@@ -1,0 +1,27 @@
+.dnd-area {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: flex-start;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.title__name {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.title__sub-info {
+  text-align: right;
+}
+
+.helper {
+  margin: auto;
+}
